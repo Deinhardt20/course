@@ -1,0 +1,74 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+html{
+	height: 100%;
+}
+body{
+	background: #43C6AC;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #F8FFAE, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #F8FFAE, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 90%;
+}
+
+#inp1{
+	display: block;
+	border: none;
+	background: rgba(255,255,255,.5);
+	border-radius: 10px;
+	padding: 20px;
+	color: rgb(0,0,0,.5);
+	outline: none;
+	font-size: 22px;
+	font-weight: 300;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+}
+
+#inp2{
+	display: block;
+	border: none;
+	background: rgba(255,255,255,.5);
+	border-radius: 10px;
+	padding: 20px;
+	color: rgb(0,0,0,.5);
+	outline: none;
+	font-size: 22px;
+	font-weight: 300;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+}
+
+#main_h{
+	text-align: center;
+	margin-top: 5%;
+}
+#enter{
+	display: block;
+	box-sizing: content-box;
+	border: none;
+	border-radius: 10px;
+	padding: 20px;
+	outline: none;
+	font-size: 22px;
+	width: 40%;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3%;
+}
+img{
+	width:200px;
+	height: 200px;
+
+}
+
+#enter:hover{
+	opacity: 0.9;
+}
